@@ -1,0 +1,6 @@
+*.kdev4
+/kdev4
+/venv
+/model
+*.png
+/__pycache__
