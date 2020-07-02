@@ -7,5 +7,8 @@ The purpose of this project is not to achieve incredibly accurate price predicti
 The current model uses 30 consecutive intervals of close price and volume data to predict the close price of the next 10 consecutive intervals.
 The best performing model is frozen and its data is saved in the 'best' folder, and can be loaded by Tensorflow for use at any time.
 
+Example Prediction using the saved 'best' model:
+![Example Prediction](/Example_Prediction.png)
+
 Historical Coinbase hourly data is from https://www.cryptodatadownload.com/.
 Thanks to this guide for helping me when I first started this project: https://towardsdatascience.com/predicting-bitcoin-prices-with-deep-learning-438bc3cf9a6f.
